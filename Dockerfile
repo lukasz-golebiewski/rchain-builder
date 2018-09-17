@@ -13,6 +13,8 @@ RUN apt-get install openjdk-11-jdk -yqq
 RUN apt-get install haskell-platform -yqq
 RUN apt-get install jflex -yqq
 
+RUN apt-get install libsodium23
+
 RUN curl -Ls https://git.io/sbt > /bin/sbt && chmod 0755 /bin/sbt
 
 RUN mkdir /workdir
