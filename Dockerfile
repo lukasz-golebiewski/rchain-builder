@@ -8,7 +8,7 @@ RUN apt-get update -yqq
 RUN apt install -y docker-ce sudo wget curl
 
 RUN apt-get install cmake curl git -yqq
-RUN apt-get install openjdk-8-jdk -yqq
+RUN apt-get install openjdk-11-jdk -yqq
 
 RUN apt-get install haskell-platform -yqq
 RUN apt-get install jflex -yqq
